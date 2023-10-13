@@ -11,7 +11,13 @@ import SwiftUI
 struct CleanSwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SingleAnswerQuestion(title: "QUESTION 1",
+                                 question: "What is 4 + 4",
+                                 options: ["4 + 4 is 15",
+                                           "4 + 4 is 16",
+                                           "4 + 4 is 19",
+                                           "4 + 4 is 20"],
+                                 selection : {_ in})
         }
     }
 }
