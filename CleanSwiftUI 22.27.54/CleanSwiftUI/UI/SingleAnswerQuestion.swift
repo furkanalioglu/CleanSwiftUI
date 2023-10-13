@@ -14,30 +14,9 @@ struct SingleAnswerQuestion: View {
     let selection : (String) -> Void
     var body: some View {
         VStack(alignment: .leading, spacing: 0.0) {
-            VStack(alignment: .leading, spacing: 16){
-                Text(title)
-                    .foregroundStyle(Color.blue)
-                    .font(.headline)
-                    .fontWeight(.medium)
-                Text(question)
-                    .font(.largeTitle)
-                    .fontWeight(.medium)
-            }.padding()
+            QuestionHeader(title: title, question: question)
             ForEach(options, id: \.self) { option in
-                Button{
-                    
-                }label:{
-                    HStack {
-                        Circle()
-                            .stroke(Color.secondary, lineWidth: 2.5)
-                        .frame(width: 40,height: 40)
-                    Text(option)
-                        .font(.title)
-                        .fontWeight(.medium)
-                        .foregroundStyle(Color.secondary)
-                        Spacer()
-                    }.padding()
-                }
+                SingleTextSelectionCell(text: option, selection: {})
                     
             }
         }
@@ -54,4 +33,3 @@ struct SingleAnswerQuestion: View {
                                        "4 + 4 is 20"],
                              selection : {_ in})
 }
-

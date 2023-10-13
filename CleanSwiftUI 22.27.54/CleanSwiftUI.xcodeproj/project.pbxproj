@@ -11,6 +11,8 @@
 		9154CEB42AD9D19E00BF26AA /* SingleAnswerQuestion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9154CEB32AD9D19E00BF26AA /* SingleAnswerQuestion.swift */; };
 		9154CEB62AD9D1A000BF26AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9154CEB52AD9D1A000BF26AA /* Assets.xcassets */; };
 		9154CEB92AD9D1A000BF26AA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9154CEB82AD9D1A000BF26AA /* Preview Assets.xcassets */; };
+		9154CEC52AD9D98800BF26AA /* QuestionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9154CEC42AD9D98800BF26AA /* QuestionHeader.swift */; };
+		9154CEC72AD9DA2300BF26AA /* SingleTextSelectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9154CEC62AD9DA2300BF26AA /* SingleTextSelectionCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		9154CEB32AD9D19E00BF26AA /* SingleAnswerQuestion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleAnswerQuestion.swift; sourceTree = "<group>"; };
 		9154CEB52AD9D1A000BF26AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9154CEB82AD9D1A000BF26AA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9154CEC42AD9D98800BF26AA /* QuestionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionHeader.swift; sourceTree = "<group>"; };
+		9154CEC62AD9DA2300BF26AA /* SingleTextSelectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleTextSelectionCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			isa = PBXGroup;
 			children = (
 				9154CEB32AD9D19E00BF26AA /* SingleAnswerQuestion.swift */,
+				9154CEC42AD9D98800BF26AA /* QuestionHeader.swift */,
+				9154CEC62AD9DA2300BF26AA /* SingleTextSelectionCell.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -178,7 +184,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				9154CEB42AD9D19E00BF26AA /* SingleAnswerQuestion.swift in Sources */,
+				9154CEC72AD9DA2300BF26AA /* SingleTextSelectionCell.swift in Sources */,
 				9154CEB22AD9D19E00BF26AA /* CleanSwiftUIApp.swift in Sources */,
+				9154CEC52AD9D98800BF26AA /* QuestionHeader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
